@@ -1,0 +1,22 @@
+<div gs-component="card">
+    <div class="gs-card">
+        {{ if .title }}
+        <div class="gs-card-header">
+            <h3 class="gs-card-title">{{ .title }}</h3>
+            {{ if .description }}
+            <p class="gs-card-description">{{ .description }}</p>
+            {{ end }}
+        </div>
+        {{ end }}
+        
+        <div class="gs-card-content">
+            {{ .content }}
+        </div>
+
+        {{ if .footer }}
+        <div class="gs-card-footer">
+            {{ .footer }}
+        </div>
+        {{ end }}
+    </div>
+</div>

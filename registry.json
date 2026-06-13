@@ -1,0 +1,31 @@
+{
+  "name": "gostack-components",
+  "version": "1.0.0",
+  "components": {
+    "button": {
+      "description": "A reusable, modern button with variants.",
+      "dependencies": [],
+      "files": [
+        "button/button.html",
+        "button/button.css"
+      ]
+    },
+    "card": {
+      "description": "A flexible content container.",
+      "dependencies": [],
+      "files": [
+        "card/card.html",
+        "card/card.css"
+      ]
+    },
+    "modal": {
+      "description": "A dialog overlay window.",
+      "dependencies": ["button"],
+      "files": [
+        "modal/modal.html",
+        "modal/modal.css",
+        "modal/modal.js"
+      ]
+    }
+  }
+}
